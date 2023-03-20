@@ -19,6 +19,13 @@
     margin-right: auto;
     background-color: rgb(157, 168, 233);
 }
+.pokemon{
+    width: 800px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(157, 168, 233);
+}
 .pokemon h1{
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +41,9 @@
     grid-template-columns:  123px 12px ;
 
 }
+.grid-template-columns-filtro{
+    grid-template-columns:  123px 123px 123px 123px 123px ;
+}
 .tipo-grama{
     background-color: green;
     border-radius: 10px;
@@ -44,6 +54,7 @@
     background-color: rebeccapurple;
     border-radius: 10px;
     margin-right: 10px;
+    margin-left: 10px;
     color: aliceblue;
 }
 .tipo-fire{
@@ -70,6 +81,32 @@
     margin-left: 10px;
     color: aliceblue;
 }
+.tipo-normal{
+    background-color: rgb(81, 82, 81);
+    border-radius: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.tipo-eletrik{
+    background-color: rgb(194, 181, 0);
+    border-radius: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.tipo-ground{
+    background-color: rgb(105, 99, 9);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+.tipo-fairy{
+    background-color: rgb(203, 65, 245);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+}
 #searchbar{
     height: 20px;
     background-color: rgb(255, 255, 255);
@@ -81,3 +118,41 @@
     margin-left: 100px;
     
 }
+
+
+.js .js-scroll-direita{
+    opacity: 0;
+    transform: translate3d(90px,0 , 0);
+    transition: .3s;
+}
+
+.js .js-scroll-direita.ativo{
+    opacity:1;
+    transform: translate3d(0,0,0);
+    transition: .3s;
+}
+
+.js .js-scroll-esquerda{
+    opacity: 0;
+    transform: translate3d(-90px,0 , 0);
+    transition: .3s;
+}
+
+.js .js-scroll-esquerda.ativo{
+    opacity:1;
+    transform: translate3d(0,0,0);
+    transition: .3s;
+}
+
+.js .js-scroll-centro{
+    opacity: 0;
+    transform: translate3d(0,90px , 0);
+    transition: .3s;
+}
+
+.js .js-scroll-centro.ativo{
+    opacity:1;
+    transform: translate3d(0,0,0);
+    transition: .3s;
+}
+

@@ -9,167 +9,244 @@
     <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
-
-<section class="pokemon">
+   
+<section class="pokemon ">
+  
     <section class="container grid grid-template-columns-topo">
         <h1>Pokédex</h1>
-         <!--Buscar-->
-  
+     
     <input id="searchbar" onkeyup="search_animal()" type="text" name="search"  placeholder="Buscar pokemon">
-</section>
-  <!--Buscar fim-->    
+    <section class="container grid grid-template-columns-filtro">
+
+    </section>
+</section>  
         <div>      
-            <section class="container grid grid-template-columns" data-anime="scroll" id="pokemons">
-                <div class="item"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" >
+            <section class="container grid grid-template-columns  js-scroll"  id="pokemons">
+                <div class="item " id="grama"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" >
                 <p>Bubasaur</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-grama">grass</p>
                     <p class="tipo-poison">poison</p>
-                    <button>dsa</button>
+                
                 </div>
                 </div>
-                <div class="item" data-anime="show-right" ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" >
+                <div class="item  js-scroll-centro"   ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" >
                 <p>Ivysaur</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-grama">grass</p>
                     <p class="tipo-poison">poison</p>
                 </div>
                 </div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" >
+                <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" >
                 <p>Venusaur</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-grama">grass</p>
                     <p class="tipo-poison">poison</p>
                 </div>
                 </div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
+                <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
                 <p>Chamander</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-fire">fire</p>
                 </div>
                     </div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" >
+                <div class="item js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" >
                 <p>Charmelion</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-fire">fire</p>
                 </div>
                     </div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" >
+                <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" >
                 <p>Charizard</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-fire">fire</p>
                     <p class="tipo-flying">flying</p>
                 </div>
                     </div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" >
+                <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" >
                  <p>Squirtle</p>
                  <div class="container grid grid-template-columns1">
                     <p class="tipo-water">water</p>
                   
                 </div></div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png">
+                <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png">
                  <p>Warturtle</p>
                  <div class="container grid grid-template-columns1">
                     <p class="tipo-water">water</p>
                   
                 </div></div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" >
+                <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" >
                 <p>Blastoise</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-water">water</p>
                   
                 </div></div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png" >
+                <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png" >
                 <p>Caterpie</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-bug">bug</p>
                   
                 </div></div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png" >
+                <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png" >
                  <p>Metapod</p><div class="container grid grid-template-columns1">
                     <p class="tipo-bug">bug</p>
                   
                 </div></div>
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png">
+                <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png">
                 <p>Buterfree</p><div class="container grid grid-template-columns1">
                     <p class="tipo-bug">bug</p>
                     <p class="tipo-flying">flying</p>
                 </div></div>
             
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" >
+                <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" >
                 <p>Weedle</p>
                 <div class="container grid grid-template-columns1">
                 <p class="tipo-bug">bug</p>
                 <p class="tipo-poison">poison</p>
                  </div></div>
 
-                  <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png" >
+                  <div class="item js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png" >
                   <p>Kakuna</p>
                   <div class="container grid grid-template-columns1">
                  <p class="tipo-bug">bug</p>
                  <p class="tipo-poison">poison</p>
                   </div></div>
 
-                <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png">
+                <div class="item js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png">
                  <p>Beedril</p>
                  <div class="container grid grid-template-columns1">
                 <p class="tipo-bug">bug</p>
                 <p class="tipo-poison">poison</p>
             </div></div>
 
-            <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png" >
+            <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png" >
                 <p>Pidjey</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-normal">Normal</p>
                     <p class="tipo-flying">flying</p>
                </div></div>
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png">
+               <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png">
                 <p>Pidjeotto</p>
                 <div class="container grid grid-template-columns1">
                     <p class="tipo-normal">Normal</p>
                     <p class="tipo-flying">flying</p>
                </div></div>
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png" >
+               <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png" >
                <p>Pidgeot</p>
                <div class="container grid grid-template-columns1">
                    <p class="tipo-normal">Normal</p>
                    <p class="tipo-flying">flying</p>
                </div></div>
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png" >
+               <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png" >
                <p>Ratatta</p>
                <div class="container grid grid-template-columns1">
                    <p class="tipo-normal">Normal</p>
                  
                </div></div>
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png" >
+               <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png" >
                 <p>Ratecat</p><div class="container grid grid-template-columns1">
                    <p class="tipo-normal">Normal</p>
                  
                </div></div>
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png">
+               <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png">
                <p>Sparrow</p><div class="container grid grid-template-columns1">
                    <p class="tipo-normal">Normal</p>
                    <p class="tipo-flying">flying</p>
                </div></div>
            
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" >
+               <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" >
                <p>Fearrow</p>
                <div class="container grid grid-template-columns1">
                 <p class="tipo-normal">Normal</p>
                 <p class="tipo-flying">flying</p>
                 </div></div>
 
-                 <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png" >
+                 <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png" >
                  <p>Ekans</p>
                  <div class="container grid grid-template-columns1">
                 <p class="tipo-poison">poison</p>
                  </div></div>
 
-               <div class="item" data-anime="show-right"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png">
+               <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png">
                 <p>Arbok</p>
                 <div class="container grid grid-template-columns1">
                <p class="tipo-poison">poison</p>
            </div></div>
+
+
+           <div class="item  js-scroll-centro"   ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png" >
+            <p>Pikachu</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-eletrik">Eletrik</p>
+           
+            </div>
+            </div>
+            <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png" >
+            <p>Raichu</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-eletrik">Eletrik</p>
+               
+            </div>
+            </div>
+            <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png">
+            <p>Sandshrew</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-ground">ground</p>
+            </div>
+                </div>
+            <div class="item js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png" >
+            <p>Sandslash</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-ground">ground</p>
+            </div>
+                </div>
+            <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png" >
+            <p>Nidoran</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+               
+            </div>
+                </div>
+            <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png" >
+             <p>Nidorina</p>
+             <div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+              
+            </div></div>
+            <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png">
+             <p>Nidoqueen</p>
+             <div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+                <p class="tipo-ground">ground</p>
+            </div></div>
+            <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png" >
+            <p>Nidoran</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+              
+            </div></div>
+            <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png" >
+            <p>Nidorino</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+              
+            </div></div>
+            <div class="item  js-scroll-centro"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png" >
+             <p>Nidoking</p><div class="container grid grid-template-columns1">
+                <p class="tipo-poison">poison</p>
+                <p class="tipo-ground">ground</p>
+            </div></div>
+            <div class="item  js-scroll-direita"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png">
+            <p>Clefairy</p><div class="container grid grid-template-columns1">
+                <p class="tipo-fairy">Fairy</p>
+            </div></div>   
+            <div class="item  js-scroll-esquerda"  ><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png" >
+            <p>Clefable</p>
+            <div class="container grid grid-template-columns1">
+                <p class="tipo-fairy">Fairy</p>
+        
+            </div></div>
+    
         
 
         </div>
@@ -179,7 +256,8 @@
 
 
 
-
+    <script src="scroll.js"></script>
     <script src="pesquisa.js"></script>
+    
 </body>
 </html>
